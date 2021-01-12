@@ -49,6 +49,9 @@ true;
 
     return `player.${func}({playlist: ${playlistJson}, index: ${index}); true;`;
   },
+  stopVideo: () => (`
+player.stopVideo()
+`),
 };
 
 export const playMode = {
